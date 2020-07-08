@@ -1,0 +1,158 @@
+1. Problem Statement - List all the Prime Numbers between 1 and 1000.
+
+2. Problem Statement - Find Factorial of the given number.
+Ex: Factorial of 5 is : 5*4*3*2*1 = 120
+
+3. Problem Statement - Find given number of elements in Fibonacci Series.
+Description:
+Fibonacii series is : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377 
+i.e., starting from 3rd position - element is sum of previous two elements.
+First element is 0 and Second element is 1
+
+4. Problem Statement - List all the Armstrong numbers between 1 and 1000
+Description: 
+ Armstrong number or also called Narcissistic Number - An Armstrong number is a number that is equal to the sum of digits raise to the power total number of digits in the number. 
+Ex-1: Between 0 and 1000 -  Armstrong number is a number that is equal to the sum of cubes of its digits. For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
+153 = 1^3 + 5^3 + 3^3
+Ex-1: Between 1000 and 10000 - 1634, 8208, 9474 are the Armstrong numbers.
+1634 = 1^4 + 6^4 + 3^4 + 4^4
+
+5. Problem Statement - Three digit Sum -Find out all the numbers between 1 and 999 where sum of 1st digit and 2nd digit is equal to 3rd digit.
+Ex : 123 : 1+2 = 3
+	 246 : 2+4 = 6 
+	 etc
+	 
+6. Problem Statement - Calculate sum of the all digits of a given number.
+Ex: 12345678910
+Sum of digits of a number is 46
+
+7. Problem Statement - Find the reverse of the given number.
+Ex:153
+reverse of the number is 351
+
+8. Problem Statement - List all Palindrome numbers between 1 and 1000
+Description:
+Palindrome Number : A number is said to be a palindrome number when is reverse is equal to the number itself. In other words, it is the same if you read it from left to right or vice-versa OR it is a number that remains the same when its digits are reversed. Like 151, for example, it is "symmetrical".
+
+Ex of Palindrome numbers are : 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202,303,404,414 etc 
+
+9. Problem Statement - Write a Program to find whether given string is Palindrome or not considering only alpha numeric characters and ignoring cases.
+Input: "A man, a plan, a canal: Panama"
+Output: true
+
+10. Problem statement - List all Emirp numbers between 1 and 1000
+Description: 
+Emirp  number  is a number which is prime when read backwards and frontwards.
+Ex: 13 is and emirp number since 13 and 31 both are prime numbers.
+  First few Emirp numbers 13, 17, 31, 37, 71, 73, 79, 97, 107, 113, 149, 157, 167, 179, 199, 311, 337, 347, 359, 389, 701, 709, 733, 739, 743, 751, 761, 769, 907, 937, 941, 953, 967, 971, 983, 991
+  
+11. Niven Number : List all Niven numbers between 1 and 1000
+Description: 
+Niven Number is a number  that is divisible by the sum of its digits.
+Ex:
+The number 18 is a Niven number in base 10, because the sum of the digits 1 and 8 is 9 (1 + 8 = 9), and 18 is divisible by 9 (since 18 % 9 = 0)
+The number 1729 is a Niven number in base 10, because the sum of the digits 1 ,7, 2 and 9 is 19 (1 + 7 + 2 + 9 = 19), and 1729 is divisible by 19 (1729 = 19 * 91)
+
+12. Given a collection of distinct integers, return all possible permutations.
+
+Example:Input: [1,2,3]
+Output:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+
+13. Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+
+Example 1:
+Input: [3, 2, 1]
+
+Output: 1
+
+Explanation: The third maximum is 1.
+Example 2:
+Input: [1, 2]
+
+Output: 2
+
+14. Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+
+For example, the square matrix  is shown below:
+
+1 2 3
+4 5 6
+9 8 9  
+The left-to-right diagonal =15 . The right to left diagonal = 17. Their absolute difference is 2.
+
+15. Check whether input year is leap year or not
+
+16. Number Triangle 
+Given input of 5 - Number traingle of 5 is 
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+Pls get the inverted Number Triangle also.
+
+
+17. Implement gievn 'n' rows of Floyd's Traingle.    
+Floyd's triangle is a right-angled triangular array of natural numbers.It is defined by filling the rows of the triangle with consecutive numbers, starting with a 1 in the top left corner:
+
+Ex: Enter the number of rows for floyd's triangle:
+Given input of 6- Floyd'straingle of 6 rows is 
+Floyd's triangle
+****************
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+16 17 18 19 20 21 
+
+18. find out the factorial of a number using recursion. ( function calling itself ) 
+
+19. In the given array of numbers 
+	calculate sum and avg of even numbers
+	calculate sum and avg of odd numbers 
+
+20. Remove all the leading spaces except 1 between words in a sentence and print it
+Ex: "     The     dog    leaped over the      fence    ."
+should become
+"The dog leaped over the fence"
+
+21. Find the sum of digits in the given String 
+Ex: In string "SanKir345Tech123" 
+sum of digits is : 3+4+5+1+2+3 = 18
+
+22. Count the number of vowels, consonants( non-vowels), digits and space in given string 
+hint: use scanner.nextLine ( for string input as it takes spaces in between )
+
+Ex: In String "aieou aieou sdfgh 12345 12345 sdfgh" - count is as follows 
+vowels - 10, consonants-10, digits-10 spaces - 5 
+
+23. Given Array of String - claculate - Each string length and number of words in each string
+Ex: Strin[] strarry = { "First line of file", "Second week", "Third month of the year 2020", "Fourth Semester of the Computer science in College",
+			"Fifth avenue in the downtown" }
+	
+So, First string length - "First line of file" - is 19 and - number of words is - 4
+
+24. Print multiplication tables from 1 to 20
+i.e., 20 rows - Each row is multiplication table of number 
+1st row is - 1,2,3,4,5,6,7,8,9,10
+2nd row is - 2,4,6,8,10,12,14,16,18,20
+and so on till 20th row
+
+25. Write a static method to return UPPERCASE or lowercase of string based on choice given.
+Ex: Get the string as user input.
+Pass this String to user inout as parameter 1 and ch 'U' or'L' as second param.
+Based on choice return the appropraite String converted.
+ 
+
+
+ 

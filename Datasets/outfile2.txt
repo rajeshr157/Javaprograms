@@ -1,0 +1,7 @@
+This is First sentence tobe read today 6th Feb 2020 -- Today is Thursday
+This is is 7th line.
+This is 9th line.
+This is 11th letter.
+This was 13th letter.
+This can be 15th letter in last but one line.
+This is the last line of the file 

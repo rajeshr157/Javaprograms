@@ -1,0 +1,6 @@
+Data Injection is the first step 
+Data Tansformation is the Second step
+Data Cleansing is the third step
+Data Persistence is THE fourth step 
+Data Insights is the last step.
+This completes all stages of the Data Transformation which are Injection Transformation Cleansing Persistence Insights 

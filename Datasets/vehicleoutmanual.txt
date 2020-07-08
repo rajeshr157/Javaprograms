@@ -1,0 +1,6 @@
+Vehicle{model='Hyundai', yom=2016-06-24, price=6.5, transmission='Manual', capacity='1.2'}
+Vehicle{model='Toyota', yom=2020-03-02, price=16.5, transmission='Manual', capacity='2.4'}
+Vehicle{model='Audi', yom=2018-07-20, price=30.5, transmission='Manual', capacity='1.8'}
+Vehicle{model='Volkswagen', yom=2019-09-30, price=9.5, transmission='Manual', capacity='1.25'}
+Vehicle{model='Verna', yom=2016-09-28, price=6.5, transmission='Manual', capacity='1.6'}
+Vehicle{model='Altroz', yom=2019-09-30, price=9.5, transmission='Manual', capacity='1.25'}
